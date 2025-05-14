@@ -1,0 +1,18 @@
+int main()
+{
+ Type_labyrinthe typeLab = SANS_BIFURCATION;
+
+ //longer à droite
+ 
+ Position * pos = initialiser_position;
+ Direction d = initialiser_direction;
+ Position position_final;
+ position_final.x = 5 ; position_final.y=6;
+
+ while (pos->x=!position_final.x || pos->y=!position_final.y)
+   do {
+     int i;
+     pos->x = position_final.x || pos->y=position_final.y;
+   }
+   return 0;
+}
