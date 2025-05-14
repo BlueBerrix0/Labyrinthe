@@ -23,5 +23,15 @@ typedef struct {
 
 Position * initialiser_position () 
 {
+    Position * p;
+    p->x = 2;
+    p ->y =0;
+    return p;
+}
 
+
+int initialiser_direction ()
+{
+    int d = NORD;
+    return d;
 }
