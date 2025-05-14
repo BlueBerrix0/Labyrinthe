@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    int x;
+    int y;
+} position;
+
+typedef enum {
+    NORD,
+    SUD,
+    EST,
+    OUEST,
+    AUCUNE_DIRECTION = -1
+} direction;
+
+typedef struct {
+    direction_t *directions;
+    int taille;
+    int capacite;
+} pile_directions;
+
+
+Position * initialiser_position () 
+{
+
+}
